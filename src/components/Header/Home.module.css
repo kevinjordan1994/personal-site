@@ -29,6 +29,8 @@
   top: 0;
   z-index: -1;
   opacity: 75%;
+  overflow: hidden;
+  filter: blur(3px);
 }
 
 @keyframes title_fade_in {
@@ -46,9 +48,11 @@
 @keyframes image_fade_out {
   from {
     opacity: 1;
+    filter: blur(0px);
   }
 
   to {
     opacity: 0.75;
+    filter: blur(3px);
   }
 }
