@@ -6,8 +6,8 @@
   margin: 0 auto;
   text-align: center;
   text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.75);
-  padding-top: 5%;
-  animation: 0.5s title_fade_in ease-in-out;
+  padding-top: 15%;
+  animation: 1.5s title_fade_in ease-in-out;
 }
 
 .title h1 {
@@ -22,22 +22,33 @@
 }
 
 .background_image img {
+  animation: 1.5s image_fade_out ease-in-out;
   width: 100%;
   height: 100vh;
   position: absolute;
   top: 0;
   z-index: -1;
-  opacity: 70%;
+  opacity: 75%;
 }
 
 @keyframes title_fade_in {
   from {
-    transform: translateY(50%);
+    transform: translateY(25%);
     opacity: 0;
   }
 
   to {
     transform: translateY(0);
     opacity: 100;
+  }
+}
+
+@keyframes image_fade_out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0.75;
   }
 }

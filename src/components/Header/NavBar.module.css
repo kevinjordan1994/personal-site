@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  padding: 1% 5%;
+  background-color: rgba(0, 0, 0, 0.15);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 90%;
+}
+
+/* .logo {
+}
+
+.links_container {
+} */
+
+.links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
