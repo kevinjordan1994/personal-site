@@ -1,0 +1,11 @@
+.card_container {
+  width: 30%;
+}
+
+.project_content {
+  text-align: center;
+}
+
+.project_image img {
+  width: 80%;
+}
