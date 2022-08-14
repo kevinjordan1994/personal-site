@@ -1,26 +1,17 @@
 import Card from "../../ui/Card";
 import styles from "./ProjectCard.module.css";
-import image from "../../icons/macros.png";
 
-export default function ProjectCard() {
+export default function ProjectCard(props) {
   return (
     <div className={styles.card_container}>
       <Card>
         <div className={styles.project_content}>
-          <h2>smart macro</h2>
+          <h2>{props.name}</h2>
           <div className={styles.project_image}>
-            <img src={image} alt="smart macro"></img>
+            <img src={props.image} alt={props.name}></img>
           </div>
-          <p className={styles.project_description}>
-            Smart macro is a meal planning application that utilizes the
-            Spoonacular API to allow health-conscious users to find meals based
-            on their macronutrient needs.
-          </p>
-          <a
-            className={styles.project_link}
-            href="https://kevinjordan1994.github.io/smart-macro/"
-            target="break"
-          >
+          <p className={styles.project_description}>{props.description}</p>
+          <a className={styles.project_link} href={props.link} target="break">
             Check It Out!
           </a>
         </div>

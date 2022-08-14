@@ -14,4 +14,27 @@
   width: 50%;
   height: 50%;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .projects {
+    height: fit-content;
+  }
+
+  .projects_container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .projects h1 {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .projects_container {
+    width: 65%;
+  }
 }

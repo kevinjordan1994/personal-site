@@ -18,3 +18,9 @@
 .skill_image img:hover {
   width: 70%;
 }
+
+@media (max-width: 800px) {
+  .skill {
+    width: 40%;
+  }
+}

@@ -7,8 +7,8 @@ export default function About() {
     <section className={styles.about}>
       <div className={styles.about_container}>
         <div className={styles.about_content}>
-          <AboutText />
           <AboutImage />
+          <AboutText />
         </div>
       </div>
     </section>

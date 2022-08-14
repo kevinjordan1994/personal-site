@@ -56,3 +56,18 @@
     filter: blur(3px);
   }
 }
+
+@media (max-width: 800px) {
+  .title h1 {
+    font-size: 3rem;
+  }
+
+  .title h2 {
+    padding-top: 1%;
+    font-size: 1.5rem;
+  }
+
+  .title {
+    padding-top: 35%;
+  }
+}

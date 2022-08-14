@@ -5,6 +5,10 @@
 .project_content {
   text-align: center;
   padding: 1rem;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .project_content h2 {
@@ -25,4 +29,24 @@
   font-size: 1.5rem;
   color: #fff;
   font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  .card_container {
+    width: 100%;
+  }
+
+  .project_image img {
+    width: 30%;
+  }
+
+  .project_description {
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .project_image img {
+    width: 50%;
+  }
 }
