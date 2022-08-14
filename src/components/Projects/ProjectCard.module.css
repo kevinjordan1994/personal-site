@@ -4,8 +4,25 @@
 
 .project_content {
   text-align: center;
+  padding: 1rem;
+}
+
+.project_content h2 {
+  font-size: 2rem;
 }
 
 .project_image img {
-  width: 80%;
+  width: 60%;
+}
+
+.project_description {
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
+
+.project_link {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
 }
